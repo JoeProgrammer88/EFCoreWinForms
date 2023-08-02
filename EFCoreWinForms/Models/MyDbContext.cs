@@ -9,5 +9,6 @@ namespace EFCoreWinForms.Models
 {
 	public class MyDbContext : DbContext
 	{
+		public DbSet<Student> Students { get; set; }
 	}
 }
